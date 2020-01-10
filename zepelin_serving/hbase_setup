@@ -1,0 +1,13 @@
+disable 'zepelin_hbase_yearly_combos'
+drop 'zepelin_hbase_yearly_combos'
+create 'zepelin_hbase_yearly_combos', 'year'
+disable 'zepelin_hbase_crimes_by_day'
+drop 'zepelin_hbase_crimes_by_day'
+create 'zepelin_hbase_crimes_by_day', 'year'
+disable 'zepelin_hbase_yearly_combos_speed'
+drop 'zepelin_hbase_yearly_combos_speed'
+create 'zepelin_hbase_yearly_combos'_speed, 'year'
+disable 'zepelin_hbase_crimes_by_day_speed'
+drop 'zepelin_hbase_crimes_by_day_speed'
+create 'zepelin_hbase_crimes_by_day_speed', 'year'
+exit

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <title>Submit Incident Report</title>
+    <link type="text/css" rel="stylesheet" href="/elegant-aero.css" />
+  </head>
+
+  <body style='background-image:URL("chiweather_image.jpg");background-repeat:no-repeat;background-position:center top;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size: 100%;'>
+    <p style="margin-bottom:5px"/>
+    <h2 class="elegant-aero" style="margin-left:30%;text-align:center;display:inline-block;color:#5E5E5E;background:#FFFFFF">&nbsp;Submit Incident Report&nbsp;</h2>
+    <form action="/submit.html" style="background:#FFFFFF;width:60%;margin:auto"  method="get" class="elegant-aero">
+      <label style="font-weight:bold;color:#5E5E5E">
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;
+  Wind Speed<select name="wind">
+    <option value="LW">Low</option>
+    <option value="MW">Moderate</option>
+    <option value="HW">High</option>
+  </select>
+  Temperature<select name="temp">
+    <option value="LT">Low</option>
+    <option value="MT">Moderate</option>
+    <option value="HT">High</option>
+  </select>
+  Precipitation<select name="precipitation">
+    <option value="LP">Low</option>
+    <option value="HP">High</option>
+  </select>
+	Arrest Made <select name="arrest">
+    <option value="true">Yes</option>
+    <option value="false">No</option>
+  </select>
+      </label>
+      <label>
+	<span>&nbsp;</span><input type="submit" value="Submit">
+      </label>
+    </form>
+    <iframe frameBorder="0" name="results_iframe" style="width:100%"/>
+  </body>
+</html>
